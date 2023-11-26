@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Passion+One&family=Sriracha&display=swap');/*Fonte da letra*/
+
+*/*Ajuda a zerar a Formataçao inicial*/{
+    margin: 0;/*nenhuma Margin*/
+    padding: 0;/*nenhum espaçamento */
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100vh;/*cobrir altura da tela inteira*/
+    background: linear-gradient(120deg, #ffe53db8,#ff2525da);
+    display: flex;/*alinha elementos*/
+    align-items: center;/*foi direto na linha do centro*/
+    justify-content: center;
+}
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 500px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0,.5);
+}
+.relogio div{
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5, 5,5, 0.9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border: 7px;
+    letter-spacing: 3px;
+}
+.relogio span{
+    font-weight: bolder;
+    font-size: 60px;
+}
+.relogio span.tempo{
+    font-size: 10px;
+}
